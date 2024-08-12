@@ -1,3 +1,3 @@
-export {buyCake} from './cake/cakeActions'
+export {buyCake} from './cake/cakeAction'
 
-export {buyIceCream} from './icecream/icecreamAction'
+export {buyIcecream} from './icecream/icecreamAction'

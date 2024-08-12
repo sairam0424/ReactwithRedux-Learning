@@ -5,20 +5,22 @@ import CakeContainer from './components/CakeContainer';
 import store from './redux/store';
 import DocTitleTwo from './hooks/DocTitleTwo';
 import DocTitleOne from './hooks/DocTitleOne';
-
+import NewCakeContainer from './components/NewCakeContainer';
 import CounterOne from './hooks/CounterOne';
 function App() {
   return (
-    // <Provider store={store}>
+    <Provider store={store}>
     <div className="App">
-      <CounterOne/>
+
+      <NewCakeContainer/>
+      {/* <CounterOne/> */}
       
      {/* <CakeContainer/> */}
 
 
      
     </div>
-    // </Provider>
+     </Provider>
   );
 }
 
